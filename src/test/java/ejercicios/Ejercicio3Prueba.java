@@ -7,7 +7,6 @@ public class Ejercicio3Prueba {
 		 lo que pueden hacer es comer o jugar) Comer le reduce en 10% el hambre
 		 jugar le aumenta el hambre en 30% */
 		
-		
 
 	}
 

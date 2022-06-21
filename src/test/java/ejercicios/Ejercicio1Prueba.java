@@ -10,8 +10,6 @@ public class Ejercicio1Prueba {
 		String textoAMostrar = habilitado ? "habilitado" : "Apagado";
 		System.out.println(textoAMostrar);
 		
-	
-		
 		
 	}
 
