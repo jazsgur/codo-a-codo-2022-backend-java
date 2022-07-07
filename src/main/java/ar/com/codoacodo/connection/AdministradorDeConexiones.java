@@ -10,7 +10,7 @@ public class AdministradorDeConexiones {
 		String username = "root";
 		String password = "root";
 		
-		String driverName = "com.mysql.cj.jdbc.Driver";//mysql|postrges
+		String driverName = "com.mysql.cj.jdbc.Driver";//mysql|postgres
 		*/
 		String url = System.getenv("DATASOURCE_URL");
 		String user = System.getenv("DATASOURCE_USERNAME");
