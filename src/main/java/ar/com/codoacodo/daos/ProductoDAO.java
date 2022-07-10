@@ -154,18 +154,16 @@ public class ProductoDAO {
 			//resultset
 			ResultSet rs = st.executeQuery(sql);
 			
-			//VIENE UN SOLO REGISTRO!!!
-			
-			if(rs.next()) {//si existe, hay uno solo
-				// rs > sacando los datos
-				Long idProducto = rs.getLong(1);//tomar la primer columna
+			while(rs.next()) {
+				
+				Long idProducto = rs.getLong(1);
 				String nombre = rs.getString(2);
 				Float precio = rs.getFloat(3);
 				Date fecha = rs.getDate(4);
 				String imagen = rs.getString(5);
 				String codigo = rs.getString(6);
 				
-				//campos crear un objeto????
+				//crear objeto
 				Producto prodFromDb = new Producto(idProducto,nombre,precio,fecha,imagen,codigo);
 				
 				listado.add(prodFromDb);
