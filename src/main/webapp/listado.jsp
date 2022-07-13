@@ -2,7 +2,7 @@
 <%@page import="ar.com.codoacodo.dto.Producto"%>
 <html>
 	<head>
-		<link href="../bootstrap.min.css" rel="stylesheet">
+		<link href="<%=request.getContextPath()%>/bootstrap.min.css" rel="stylesheet">
 	</head>
 	
 	<body>

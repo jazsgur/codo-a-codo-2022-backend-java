@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<link href="bootstrap.min.css" rel="stylesheet">
+		<link href="<%=request.getContextPath()%>/bootstrap.min.css" rel="stylesheet">
 	</head>
 	
 	<body>
@@ -10,6 +10,7 @@
 			<div class="container">
 				<section>
 					<h1>ABM de productos </h1>
+					<img src ="<%=request.getContextPath()%>/ecommerce.png" style="width: 60%">
 				</section>
 			</div>
 		</main>
